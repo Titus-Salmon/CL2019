@@ -1,0 +1,65 @@
+/*********Begin collapsing margins CSS**************************************/
+
+.adj-sib1 {
+    margin: 2rem 0 0 0;
+    display: inline-block;
+}
+
+.adj-sib2 {
+    margin: 4rem 0 0 0;
+    display: inline-block;
+}
+
+.adj-sib1fl {
+    margin: 2rem 0 0 0;
+    display: inline-block;
+    float: left;
+}
+
+.adj-sib2fl {
+    margin: 4rem 0 0 0;
+    display: inline-block;
+    float: right;
+}
+
+.parent1 {
+    margin: 2rem 0 0 0;
+    clear: both;
+}
+
+.child1 {
+    margin: 4rem 0 0 0;
+}
+
+.emptyblock1 {
+    margin: 2rem 0 4rem 0;
+}
+
+/*********End collapsing margins CSS**************************************/
+
+/*********Begin clearfix CSS**************************************/
+
+.cf-after::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.cf-before::before {
+content: "";
+clear: both;
+display: table;
+}
+
+.div-border {
+    border: 2px solid green;
+}
+
+.img1 {
+    float: right;
+    width: 66px;
+}
+
+
+
+/*********End clearfix CSS**************************************/
